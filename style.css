@@ -82,6 +82,7 @@ h1{
     content: "";
 }
 
+
 @media (min-width: 1030px)
 .d-5of7 {
     float: left;
@@ -96,4 +97,35 @@ h1{
     float: left;
     width: 31%;
     padding-right: 0.75em;
+}
+
+.wrapper {
+ display: flex;
+ max-width: 1600px;
+ min-width: 980px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+main {
+ flex: 1;
+ margin: 0 20px;
+}
+aside {
+ width: 220px;
+}
+
+@media screen and (max-width: 480px) {
+ .wrapper {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  min-width: initial;
+ }
+ main {
+  margin: 0;
+ }
+ aside {
+  width: 100%;
+ }
 }
