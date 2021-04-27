@@ -81,3 +81,19 @@ h1{
     display: table;
     content: "";
 }
+
+@media (min-width: 1030px)
+.d-5of7 {
+    float: left;
+    width: 69%;
+    padding-right: 2em;
+}
+
+@media (min-width: 1030px)
+.insidesp {
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    width: 31%;
+    padding-right: 0.75em;
+}
