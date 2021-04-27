@@ -82,23 +82,6 @@ h1{
     content: "";
 }
 
-
-@media (min-width: 1030px)
-.d-5of7 {
-    float: left;
-    width: 69%;
-    padding-right: 2em;
-}
-
-@media (min-width: 1030px)
-.insidesp {
-    margin: 0 auto;
-    padding: 0;
-    float: left;
-    width: 31%;
-    padding-right: 0.75em;
-}
-
 .wrapper {
  display: flex;
  max-width: 1600px;
@@ -109,9 +92,10 @@ h1{
 main {
  flex: 1;
  margin: 0 20px;
+ width: 69%;
 }
 aside {
- width: 220px;
+ width: 31%;
 }
 
 @media screen and (max-width: 480px) {
