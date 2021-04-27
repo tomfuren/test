@@ -35,3 +35,49 @@ h1{
 .references{
 
 }
+
+.widget {
+    margin-bottom: .75em;
+    margin: 0 0 2.5em;
+    background: #fff;
+    font-size: 0.98em;
+}
+
+.custom-html-widget{
+  padding: 0;
+}
+
+.widget-menu__title {
+    padding: 10px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.ct {
+    text-align: center;
+}
+
+.main-color {
+    background-color: #f89174;
+}
+
+.widget-menu {
+    text-align: center;
+}
+
+.dfont {
+    font-family: "Quicksand","Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+}
