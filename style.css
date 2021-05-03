@@ -1,3 +1,76 @@
+.saysprp {
+    width: 100%;
+    margin: 1.5em 0;
+    overflow: hidden;
+}
+.saysprp .faceicon {
+    padding-right:0;
+}
+
+.saysprp .faceicon img {
+    width: 100px;
+    border-radius: 50%;
+}
+.saysprp .fuki {
+    background-color: #fff;
+    border: 2px solid #BDBDBD;
+    border-radius: 12px;
+    position: relative;
+    margin:.5em .5em 1.5em .5em;
+    padding: 1em;
+    font-size: .95em;
+    width: 98%;
+}
+
+.saysprp .fuki:before {
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+    border-top-width: 0;
+    top: -8px;
+    content: "";
+    display: block;
+    left: 30px;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+}
+
+.saysprp .fuki:after {
+    border: 10px solid transparent;
+    border-bottom-color: #BDBDBD;
+    border-top-width: 0;
+    top: -10.5px;
+    content: "";
+    display: block;
+    left: 30px;
+    position: absolute;
+    width: 0;
+}
+@media only screen and (min-width: 481px) {
+    .saysprp .faceicon {
+        width: 110px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .saysprp .faceicon {
+        width: 80px;
+    }
+    .saysprp .fuki {
+        margin:1em 0 1.5em 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 head{
   margin: 40px;
   background: ##f5d5d3;
