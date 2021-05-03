@@ -73,8 +73,16 @@
     text-align: center;
     vertical-align: top;
 }
-
-
+.faceicon img {
+    width: 100%;
+    height: auto;
+    border: solid 3px #eaedf2;
+    border-radius: 50%;
+}
+.saysprp .faceicon img {
+    width: 100px;
+    border-radius: 50%;
+}
 
 
 
